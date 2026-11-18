@@ -1,0 +1,10 @@
+{
+  "name": "Open Source EDA",
+  "build": { "dockerfile": "Dockerfile" },
+  "onCreateCommand": "bash .devcontainer/setup.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": ["surfer-project.surfer", "eirikpre.systemverilog"]
+    }
+  }
+}
